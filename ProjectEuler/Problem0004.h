@@ -26,13 +26,11 @@ namespace problem0004
 			}
 		}
 
-		if (result == 906'609)
-		{
-			return std::to_string(result);
-		}
-		else
+		if (result != 906'609)
 		{
 			return R"(FAILED! EXPECTED 906'609 RESULT )" + std::to_string(result);
 		}
+
+		return std::to_string(result);
 	}
 }

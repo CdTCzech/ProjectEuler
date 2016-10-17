@@ -7,14 +7,14 @@ namespace problem0003
 {
 	std::string solve()
 	{
-		uint64 maximum = 600'851'475'143;
+		uint64 result = 600'851'475'143;
 		uint64 z = 2;
 
-		while (z * z <= maximum)
+		while (z * z <= result)
 		{
-			if (maximum % z == 0)
+			if (result % z == 0)
 			{
-				maximum /= z;
+				result /= z;
 			}
 			else
 			{
@@ -22,13 +22,11 @@ namespace problem0003
 			}
 		}
 
-		if (maximum == 6'857)
+		if (result != 6'857)
 		{
-			return std::to_string(maximum);
+			return R"(FAILED! EXPECTED 6'857 RESULT )" + std::to_string(result);
 		}
-		else
-		{
-			return R"(FAILED! EXPECTED 6'857 RESULT )" + std::to_string(maximum);
-		}
+
+		return std::to_string(result);
 	}
 }

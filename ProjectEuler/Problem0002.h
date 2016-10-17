@@ -19,13 +19,11 @@ namespace problem0002
 			number2 = number3;
 		}
 
-		if (result == 4'613'732)
-		{
-			return std::to_string(result);
-		}
-		else
+		if (result != 4'613'732)
 		{
 			return R"(FAILED! EXPECTED 4'613'732 RESULT )" + std::to_string(result);
 		}
+
+		return std::to_string(result);
 	}
 }
