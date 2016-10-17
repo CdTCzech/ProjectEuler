@@ -32,5 +32,8 @@
     <ClInclude Include="Problem0003.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Problem0004.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
