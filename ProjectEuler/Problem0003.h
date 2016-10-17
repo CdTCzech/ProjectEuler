@@ -22,16 +22,13 @@ namespace problem0003
 			}
 		}
 
-		if (maximum > 1)
+		if (maximum == 6'857)
 		{
-			if (maximum == 6'857)
-			{
-				return std::to_string(maximum);
-			}
-			else
-			{
-				return R"(FAILED! EXPECTED 6'857 RESULT )" + std::to_string(maximum);
-			}
+			return std::to_string(maximum);
+		}
+		else
+		{
+			return R"(FAILED! EXPECTED 6'857 RESULT )" + std::to_string(maximum);
 		}
 	}
 }

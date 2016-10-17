@@ -8,7 +8,7 @@ namespace problem0001
 	std::string solve()
 	{
 		bool multiplesArray[1000] = { false };
-		unsigned int result = 0;
+		uint64 result = 0;
 
 		for (size_t i = 3; i < 1000; i += 3)
 		{
