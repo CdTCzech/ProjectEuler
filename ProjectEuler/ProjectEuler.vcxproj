@@ -123,6 +123,7 @@
     <ClInclude Include="Problem0005.h" />
     <ClInclude Include="Problem0006.h" />
     <ClInclude Include="Problem0007.h" />
+    <ClInclude Include="Problem0008.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
