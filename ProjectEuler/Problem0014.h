@@ -26,9 +26,9 @@ namespace problem0014
 			}
 		}
 
-		if (std::get<1>(result) != 233'168)
+		if (std::get<1>(result) != 837'799)
 		{
-			return R"(FAILED! EXPECTED 233'168 RESULT )" + std::to_string(std::get<1>(result));
+			return R"(FAILED! EXPECTED 837'799 RESULT )" + std::to_string(std::get<1>(result));
 		}
 
 		return std::to_string(std::get<1>(result));
