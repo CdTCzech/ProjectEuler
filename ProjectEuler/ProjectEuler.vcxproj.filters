@@ -16,6 +16,9 @@
     <Filter Include="Header Files\Problems0000to0025">
       <UniqueIdentifier>{252a67bb-d7fe-4b65-9f6a-0df622b1c21c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\3rd">
+      <UniqueIdentifier>{174fd850-e6cf-4569-ae2b-891ad26c90ce}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ProjectEuler.cpp">
@@ -67,6 +70,9 @@
     </ClInclude>
     <ClInclude Include="Problems0000to0025.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InfInt.h">
+      <Filter>Header Files\3rd</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

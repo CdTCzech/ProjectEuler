@@ -116,6 +116,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />
+    <ClInclude Include="InfInt.h" />
     <ClInclude Include="Problem0001.h" />
     <ClInclude Include="Problem0002.h" />
     <ClInclude Include="Problem0003.h" />
