@@ -11,3 +11,4 @@
 #include "Problem0009.h"
 #include "Problem0010.h"
 #include "Problem0011.h"
+#include "Problem0012.h"
