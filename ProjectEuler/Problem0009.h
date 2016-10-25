@@ -27,5 +27,6 @@ namespace problem0009
 				}
 			}
 		}
+		return std::to_string(-1);
 	}
 }

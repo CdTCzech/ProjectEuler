@@ -15,6 +15,7 @@ int main(int argc, char** argv)
 		std::cout << "Problem 0008: " << problem0008::solve() << std::endl;
 		std::cout << "Problem 0009: " << problem0009::solve() << std::endl;
 		std::cout << "Problem 0010: " << problem0010::solve() << std::endl;
+		std::cout << "Problem 0011: " << problem0011::solve() << std::endl;
 	}
 	auto end = std::chrono::high_resolution_clock::now();
 	auto timeSpan = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);

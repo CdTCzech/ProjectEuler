@@ -56,5 +56,8 @@
     <ClInclude Include="Problems0to100.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Problem0011.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
