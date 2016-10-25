@@ -1,4 +1,4 @@
-#include "Problems0to100.h"
+#include "Problems0000to0025.h"
 
 
 int main(int argc, char** argv)
@@ -17,6 +17,7 @@ int main(int argc, char** argv)
 		std::cout << "Problem 0010: " << problem0010::solve() << std::endl;
 		std::cout << "Problem 0011: " << problem0011::solve() << std::endl;
 		std::cout << "Problem 0012: " << problem0012::solve() << std::endl;
+		std::cout << "Problem 0013: " << problem0013::solve() << std::endl;
 	}
 	auto end = std::chrono::high_resolution_clock::now();
 	auto timeSpan = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);
