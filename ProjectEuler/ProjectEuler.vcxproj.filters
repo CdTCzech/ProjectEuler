@@ -77,5 +77,8 @@
     <ClInclude Include="Problem0014.h">
       <Filter>Header Files\Problems0000to0025</Filter>
     </ClInclude>
+    <ClInclude Include="Problem0015.h">
+      <Filter>Header Files\Problems0000to0025</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
