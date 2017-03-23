@@ -21,6 +21,11 @@ namespace problem0016
 			result += powerOfTwo.digitAt(i);
 		}
 
+		if (result != 1'366)
+		{
+			return R"(FAILED! EXPECTED 1'366 RESULT )" + std::to_string(result);
+		}
+
 		return std::to_string(result);
 	}
 }

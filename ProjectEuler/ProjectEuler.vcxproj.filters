@@ -83,5 +83,14 @@
     <ClInclude Include="Problem0016.h">
       <Filter>Header Files\Problems0000to0025</Filter>
     </ClInclude>
+    <ClInclude Include="Problem0017.h">
+      <Filter>Header Files\Problems0000to0025</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem0018.h">
+      <Filter>Header Files\Problems0000to0025</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem0019.h">
+      <Filter>Header Files\Problems0000to0025</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

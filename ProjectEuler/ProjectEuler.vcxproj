@@ -133,6 +133,9 @@
     <ClInclude Include="Problem0014.h" />
     <ClInclude Include="Problem0015.h" />
     <ClInclude Include="Problem0016.h" />
+    <ClInclude Include="Problem0017.h" />
+    <ClInclude Include="Problem0018.h" />
+    <ClInclude Include="Problem0019.h" />
     <ClInclude Include="Problems0000to0025.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -16,3 +16,6 @@
 #include "Problem0014.h"
 #include "Problem0015.h"
 #include "Problem0016.h"
+#include "Problem0017.h"
+#include "Problem0018.h"
+#include "Problem0019.h"
